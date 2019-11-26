@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">IESTECapp</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="info1">Este es tu codigo QR. Muestralo en la entrada del evento.</string>
+    <string name="info2">Este es un codigo de entrada. Sirve para identificarte en el sistema y validar tu registro en el evento, en caso de que no funcione el codigo QR.</string>
+</resources>
