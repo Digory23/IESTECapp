@@ -13,7 +13,7 @@ public class ItinerarioGralActivity extends AppCompatActivity {
 
         String[] mobileArray = {"Industry 4.0, development opportunities for Latin America","IPhone 20: The Future","WindowsMobile: Why did it die?",
                 "La UTP y los semilleros de Investigación JIC",
-                "WebOS","Sistema de medición para el análisis de la innovación social en proyectos.","Windows7","Max OS X"};
+                "WebOS: Su fracaso e influencia","Sistema de medición para el análisis de la innovación social en proyectos.","Windows vs Linux en el mundo modenos","Creación de plásticos a base de desechos de pescados"};
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_itinerario_gral);
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/purplewave"
+    android:background="@drawable/purplebackground"
     android:orientation="horizontal"
     tools:context=".MainActivity">
 
@@ -23,26 +23,18 @@
             app:cardCornerRadius="20dp">
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/abstracticon"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/iesteclogo"
                 android:layout_gravity="center_horizontal"
                 />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="IESTEC 2020"
-                android:layout_gravity="center_horizontal"
-                android:paddingTop="100dp"
-                android:textSize="30dp"
-                android:textColor="#63106e"
-                android:fontFamily="sans-serif-black"
+
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Introduce tu codigo de entrada"
+                android:text="Introduce tu código de entrada"
                 android:layout_gravity="center_horizontal"
                 android:paddingTop="180dp"
                 android:textSize="20dp"
@@ -75,7 +67,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="325dp"
                 android:background="#ffffff"
-                android:text="No estas registrado? Registrate."
+                android:text="¿No estas registrado? Regístrate."
                 android:elevation="0dp"
                 android:textAllCaps="false"
                 android:textColor="#63106e"

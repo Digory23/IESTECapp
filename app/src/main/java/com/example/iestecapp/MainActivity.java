@@ -75,11 +75,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void RegistrarSistema(){
         Button btnRegistrar = (Button) findViewById(R.id.btnRegistrar);
-        String url = "http://www.congreso1.ds507.online";
+        String url = "http://192.168.1.10/IESTEC-DES7/";
         btnRegistrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://congreso1.ds507.online/PROTOTIPO/")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://192.168.1.10/IESTEC-DES7/")));
             }
         });
     }
