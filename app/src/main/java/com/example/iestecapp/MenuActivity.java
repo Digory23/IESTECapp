@@ -46,8 +46,13 @@ public class MenuActivity extends AppCompatActivity {
         CardView itinerario = (CardView) findViewById(R.id.itinerario);
         itinerario.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MenuActivity.this, ItinerarioOpcionActivity.class));
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(MenuActivity.this, ItinerarioGralActivity.class);
+                intent.putExtra("ticket", ticket);
+
+                MenuActivity.this.startActivity(intent);
+
             }
         });
     }

@@ -10,7 +10,7 @@ import java.util.Map;
 public class LoginRequest extends StringRequest
 {
 
-    private static final String LOGIN_REQUEST_URL = "http://192.168.1.10/IESTEC-DES7/api/Login.php";
+    private static final String LOGIN_REQUEST_URL = "http://192.168.1.2/IESTEC-DES7/api/Login.php";
     private Map<String,String> params;
     public LoginRequest(String ticket, Response.Listener<String> listener){
         super(Request.Method.POST, LOGIN_REQUEST_URL, listener, null);
